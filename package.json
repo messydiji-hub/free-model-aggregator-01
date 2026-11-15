@@ -1,0 +1,9 @@
+{
+  "name": "free-model-aggregator-01",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Deterministic OpenAI and Anthropic compatible gateway for free model routing.",
+  "type": "module",
+  "engines": { "node": ">=22.6" },
+  "scripts": { "start": "node --experimental-strip-types main.ts", "test": "node --experimental-strip-types --test test/gateway.test.ts" }
+}
